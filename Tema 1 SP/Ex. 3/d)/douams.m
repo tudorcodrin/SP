@@ -13,6 +13,8 @@ y8=zeros(1,126);
 
 in=[-1 1 -3 3 -5 5 -7 7];  %vectorul in contine amplitudinile fiecarui nivel
 out=amestecare(in);        %vectorului out i se atribuie valorile vectorului i amestecat
+                           %se poate folosi si functia amestecare2, deoarece aceasta are o mai buna precizie
+                           %insa in cazul in care se doreste amestecarea a 8 elemente, precizia functiei amestecare este maxima
 
 for i=1:1:126;		   %se creeaza vectori cu amplitudinile cerute
     y1(i)=out(1);
