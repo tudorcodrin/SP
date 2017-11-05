@@ -1,5 +1,5 @@
 function [out] = amestecare2 (in);  %amesteca numerele continute in vectorul in, numere nenule.
-n=length(in);				%Numarul maxim de componente ale lui in este 91.
+n=length(in);				%Numarul maxim de componente ale lui in este 100.
 for i=1:1:100
     v(i)=0;
 end
